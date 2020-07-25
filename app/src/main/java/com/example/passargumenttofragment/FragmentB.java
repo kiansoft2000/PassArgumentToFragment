@@ -27,6 +27,7 @@ public class FragmentB extends Fragment {
 
         String data = getArguments().getString(EXTRA_KEY_DATA);
         textView.setText(data);
+
     }
 
     public static FragmentB newInstance(String data) {
